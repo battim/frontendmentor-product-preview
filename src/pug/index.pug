@@ -13,7 +13,7 @@ html(lang='en')
     title Frontend Mentor | Product preview card component
 
   body.mont
-    .container
+    main.container(role='main')
       .card.col-md-6.rounded.rounded-4
         .row.g-0
           .col-md-6
@@ -22,7 +22,7 @@ html(lang='en')
           .col-md-6
             .card-body.h-100.d-flex.flex-column.justify-content-between
               h6.card-text.text-uppercase perfume
-              h2.card-title.fraunces Gabrielle Essence Eau De Parfum
+              h1.h2.card-title.fraunces Gabrielle Essence Eau De Parfum
               p.card-text
                 | A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.
               p.card-text.text-success.fs-2.fraunces
@@ -31,7 +31,7 @@ html(lang='en')
               a.btn.btn-success.col-12.py-2-3(href='')
                 img(src='assets/icon-cart.svg' alt='')
                 | Add to Cart
-    .sticky-sm-bottom.attribution.text-center
+    footer.sticky-sm-bottom.attribution.text-center
       | Challenge by 
       a(href='https://www.frontendmentor.io?ref=challenge' target='_blank') Frontend Mentor
       | Coded by 
